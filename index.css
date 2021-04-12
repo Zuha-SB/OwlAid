@@ -54,6 +54,8 @@ body {
 .fa {
     color: white;
     text-decoration-line: none;
+    padding-right:5px;
+    padding-left:5px;
 }
 
 h1 {
