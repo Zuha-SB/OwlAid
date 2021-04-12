@@ -20,6 +20,42 @@ body {
     font-size: 20px;
 }
 
+.footer {
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height: 100px;
+    background-color: #0C6BDB;
+    font-size: 18px;
+}
+
+.footerbox {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width:20em;
+}
+
+.left {
+    position:absolute;
+    width:10em;
+    height:100%;
+}
+
+.right {
+    position:absolute;
+    left:10em;
+    width:10em;
+    height:100%
+}
+
+.fa {
+    color: white;
+    text-decoration-line: none;
+}
+
 h1 {
     font-family:serif;
     position: relative;
@@ -32,4 +68,22 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: black;
+}
+
+h3 {
+    top: 20px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    position:relative;
+}
+
+h4 {
+    top: 0px;
+    margin-top: 10px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    position:relative;
+    line-height: .2;
 }
